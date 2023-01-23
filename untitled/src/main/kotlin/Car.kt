@@ -9,11 +9,11 @@ data class Car(
 
 
     override fun toString(): String {
-        return "Numero puertas: $doorNumber " +
+        return "\nNumero puertas: $doorNumber " +
                 " -> Kilometros recorridos: $mileage " +
                 " -> Es nuevo: $isNew " +
-                " -> Licencia de carro: '$carLicense '" +
-                " -> Inicial licencia de carro: ${carLicense.get(0)}"
+                " -> Licencia de carro: '$carLicense' " +
+                " -> Inicial licencia de carro: ${carLicense.get(0)}\n"
     }
 
 

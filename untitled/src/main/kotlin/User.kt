@@ -8,10 +8,6 @@ data class User(
     var listOfCars: ArrayList<Car> = arrayListOf<Car>()
 ) {
 
-    public fun addCar(car: Car) {
-        this.listOfCars.add(car)
-    }
-
     override fun toString(): String {
         var salida = "Id: '$id'\n" +
                 "Nombre: '$name'\n" +
